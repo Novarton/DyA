@@ -1,0 +1,53 @@
+body {
+  background-color: #f1b7b7;
+  display: flex;       
+  justify-content: center;   
+  align-items: center;       
+  height: 100vh;            
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;  
+}
+
+.logo {
+  position: absolute;
+  top: 2vh;   
+  left: 2vw;   
+  width: 10vw; 
+}
+
+/* Diseño de los botones */
+.botones {
+  display: flex;
+  flex-direction: column; 
+  gap: 2vh;              
+  align-items: center;
+}
+
+.botones button {
+  text-align: center;
+  width: 40vw;          
+  max-width: 300px;    
+  font-size: 1.2rem;      
+  background-color: #dd6f6f;
+  border: none;
+  border-radius: 12em;
+  padding: 1vh 3vw;     
+  color: #fffdee;
+  cursor: pointer;
+  margin: 1vh;           
+}
+
+
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 600px) {
+  .logo {
+    width: 15vw;          
+  }
+
+  .botones button {
+    width: 70vw;          
+    font-size: 1rem;     
+  }
+}

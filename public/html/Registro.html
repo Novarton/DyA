@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro.css">
+    <title>Document</title>
+      <!--para animaciones-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+</head>
+<body>
+    
+    <section data-aos="zoom-in"  class="from-registro">
+        <center>
+        <h4>REGISTRATE</h4>
+        </center>
+        <form method="POST">
+        <input class="controles" type="text" name="Fullname" id="nombre" placeholder="Nombre completo" required>
+        <input class="controles" type="email" name="Correo_a" id="correo" placeholder="Correo Electronico" required>
+        <input class="controles" type="password" name="Contrasena_a" id="contrasena" placeholder="Contraseña" required>
+        <input class="controles" type="password" name="Contrasena2_a" id="contrasena" placeholder="Confirmar contraseña" required>
+        <input class="controles" type="number" name="Telefono" placeholder="Numero de telefono">
+        <a href="../html/principal.html"><button class="botons">Ingresar</button></a>
+        <input type="checkbox" name="terms"><h6>Acepta terminos y condiciones</h6>
+        <lu><a href="../html/iniciodesesion.html"<h3>Ya tengo una cuenta</h3></lu></a>
+    </section>
+
+       <!--iniciar animacion-->
+       <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>

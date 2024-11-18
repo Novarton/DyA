@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f8dada;
+    display: flex;       
+    justify-content: center;   
+    align-items: center;       
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;  
+  }
+  
+  h2 {
+    font-size: 5vh;
+    text-align: center;
+  }
+  
+  .from-registro {
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    background: #f5bcbc;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .from-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .from-registro a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2vh;
+  }
+  
+  .controles {
+    width: 100%;
+    background-color: #e7e7e7;
+    outline: none; 
+    border: #f09393;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+  }
+  
+  .from-registro .botons {
+    width: 100%;
+    background: #f09393;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  /* Media Queries para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .from-registro {
+      margin-top: 50px; 
+    }
+  
+    h2 {
+      font-size: 4vh; 
+    }
+  
+    .from-registro h4 {
+      font-size: 20px; 
+    }
+  
+    .controles {
+      font-size: 16px; 
+    }
+  
+    .from-registro .botons {
+      font-size: 14px;
+    }
+  }
+  
