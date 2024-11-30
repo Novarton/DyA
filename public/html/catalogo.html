@@ -3,39 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/catalogo.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/catalogo.css">
+    <title>Catálogo</title>
 </head>
 <body>
 
+    <!-- Menú -->
     <nav class="menu">
-        <a href=""><img  class="menu_logo" src="../imagenes/Logo.png"></a>
-        
+        <a href=""><img class="menu_logo" src="../imagenes/Logo.png" alt="Logo"></a>
         <ul class="menu_list">
-         <a href="/public/html/principal.html" class="menu_link">Inicio</a>
-         <a href="catalogo.html" class="menu_link">Catalogo</a>
-         <a href="#" class="menu_link">Personalizacion</a>
-         <a href="#" class="menu_link">Puntos de entrega</a>
+            <a href="/public/html/principal.html" class="menu_link">Inicio</a>
+            <a href="catalogo.html" class="menu_link">Catálogo</a>
+            <a href="#" class="menu_link">Personalización</a>
+            <a href="#" class="menu_link">Puntos de entrega</a>
         </ul>
-        </nav>
+    </nav>
 
-        <header>
+    <!-- Título del Catálogo -->
+    <h1 class="titulo_catalogo">Productos</h1>
 
-            <div class="cuadro">
-                
-                    <img src="../imagenes/taza1.png" alt="">
-                    <div class="sombra"></div>
-                    <div class="cuadrob">
-                        <p>Taza sublimada, con diseño de plantas</p>
-                        <p>precio:$60</p>
-                    </div>
-            </div>
-            <div class="comprar">
-                <button>Comprar</button>
-                <button>Agregar al carrito</button>
-            </div>
+    <!-- Catálogo -->
+    <div class="catalogo">
+        <div class="item">
+            <img src="../imagenes/taza1.png" alt="Producto 1">
+            <p class="nombre_producto">Taza sublimada</p>
+            <p class="nombre_catalogo">Tazas</p>
+            <p class="precio_producto">$60.00</p>
+        </div>
+        <div class="item">
+            <img src="imagen2.jpg" alt="Producto 2">
+            <p class="nombre_producto">Producto 2</p>
+            <p class="precio_producto">$200.00</p>
+        </div>
+        <div class="item">
+            <img src="imagen3.jpg" alt="Producto 3">
+            <p class="nombre_producto">Producto 3</p>
+            <p class="precio_producto">$250.00</p>
+        </div>
+      
+    </div>
 
-        </header>
-    
 </body>
 </html>
